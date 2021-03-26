@@ -35,6 +35,12 @@ return [
 
     'connections' => [
 
+        'database_test' => [
+            'driver'   => 'pgsql',
+            'database' => 'pgsql_test',
+            'prefix'   => '',
+        ],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
